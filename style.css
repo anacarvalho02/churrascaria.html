@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Matemasie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Matemasie&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.2s;
+    color: #ebebeb;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: black;
+    color: #ebebeb
+    ;
+}
+
+/* header */
+
+header {
+    background-color: maroon;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    align-items: center;
+}
+
+.logo-img {
+    display: flex;
+    flex-basis: 100px;
+}
+
+.logo-img img {
+    width: 100%;
+}
+
+.logo-title {
+    font-family: Matemasie;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 2px solid #ebebeb;
+}
+
+.nav-list {
+    display: flex;
+    gap: 32px;
+    font-style: none;
+    justify-content: center;
+    padding: 8px;
+}
+
+.nav-list a:hover {
+    color: #000000;
+    background-color: #ebebeb;
+    transform: scale(1.1);
+}
+
+.nav-list a li {
+    font-family: Kanit;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* main */
+
+.screen {
+    padding-top: 64px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 64px;
+    
+}
+
+.principal {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ebebeb;
+    border-radius: 10px;
+    overflow-wrap: anywhere;
+    padding: 8px;
+    text-align: center;
+    background-color: maroon;
+}
+
+.principal-h1 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.principal-h1 h1 {
+    border-left: 4px solid #ebebeb;
+    padding-left: 8px;
+}
+
+.principal-img {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 16px;
+    gap: 8px;
+}
+
+.fig {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 400px;
+}
+
+.fig img {
+    transition: box-shadow 0.5s;
+    box-shadow: 1px  1px 4px #ebebeb;
+}
+
+.fig:hover img {
+    box-shadow: 1px 1px 4px #000000;
+}
+
+.principal-img img {
+    width: 100%;
+}
+
+.aside-right {
+    width: 600px;
+    border: 2px solid #ebebeb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow-wrap: anywhere;
+    padding: 8px;
+    text-align: center;
+    background-color: maroon;
+}
+
+.aside-right-h2 {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.aside-right-h2 h2 {
+    border-left: 4px solid #ebebeb;
+    padding-left: 8px;
+}
+
+.aside-right-img {
+    display: flex;
+    margin-top: 16px;
+    flex: 1 1 100px;
+    flex-flow: row wrap;
+}
+
+.aside-right-img img {
+    width: 100%;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 32px;
+}
+
+/* Estilo do rodapé */
+footer{
+    background-color: maroon;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer .top-footer button{
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    margin:  0 10px;
+    transition: .5s;
+
+}
+
+footer .top-footer button:hover{
+    background-color: #fff;
+    color: #000;
+
+}
+
+footer .middle-footer{
+    margin: 20px 0;
+}
+
+
+
+footer .middle-footer a{
+    color: #fff;
+    margin: 0 15px;
+}
+
+footer .bottom-footer{
+    border-top: 2px solid #fff;
+}
+
+
+footer .bottom-footer p{
+    color: #fff;
+    margin-top: 10px;
+}
